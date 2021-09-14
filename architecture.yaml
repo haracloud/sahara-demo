@@ -1,1 +1,21 @@
-
+architecture:
+  components:
+    - type: variable-resistor
+      id: node-1631306987474
+      data:
+        angle: 90
+    - type: arduino
+      id: node-1631235221799
+      data: {}
+  mappings:
+    - source: node-1631306987474
+      target: node-1631235221799
+      sourceHandle: node-1631306987474__handle--left
+      targetHandle: node-1631235221799--p30
+    - source: node-1631235221799
+      target: node-1631306987474
+      sourceHandle: node-1631235221799--p21
+      targetHandle: node-1631306987474__handle--right
+samplingInfo:
+  pinsToSample: ffffffff
+  samplingRate: default
