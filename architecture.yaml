@@ -4,7 +4,7 @@ architecture:
       id: node-1631306987474
       data:
         angle: 90
-    - type: arduino
+    - type: arduinomicro
       id: node-1631235221799
       data: {}
   mappings:
