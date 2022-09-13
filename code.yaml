@@ -3,7 +3,7 @@ target:
   platform: arduino
   specs:
     name: SimpleBlink
-    boardTag: micro
+    boardTag: uno
 systemLibs: []
 userLibs: []
 projId: 7d897ca0-fbca-11eb-aa9b-a13dc6117471
